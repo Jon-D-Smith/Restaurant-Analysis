@@ -137,7 +137,7 @@ LEFT JOIN sum_of_sales ON order_price.order_day = sum_of_sales.order_day
 - Sunday and Wednesday have the lowest average order value
 
 #### Visualizations
-![Sales Trend Dashboard](charts\sales_and_orders_dashboard.JPG)
+![Sales Trend Dashboard](https://github.com/Jon-D-Smith/Restaurant-Analysis/blob/main/charts/sales_and_orders_dashboard.JPG)
 - Sales Per Day - A bar chart showing the total sales per day of the week, supporting the higher total sales observed on Monday and Friday
 - Total Orders Per Day - A bar chart showing the total order volume per weekday supporting the large volume on Monday and the relatively low volume for Tuesday.
 - Sales to Order Ratio - A scatterplot showing sales and order volume per day of the week. The trend line shows the expected orders to sales ratio.
@@ -255,7 +255,7 @@ ORDER BY
 - Mexican food has the highest level of volatility per weekday.
 
 #### Visualizations
-![Category Dashboard](charts\category_dashboard.JPG)
+![Category Dashboard](https://github.com/Jon-D-Smith/Restaurant-Analysis/blob/main/charts/category_dashboard.JPG)
 - Category Share By day - A stacked bar chart showing the distribution of volume per category, which supports the overall performance of Asian and Italian categories, as well as the volatility of the Mexican category.
 - Catregory Trends - A line chart showing categorical trends per weekday, which reinforces the Asian category is consistently the highest performer and the American categry is consistently the lowest performer as far as volume of orders.
 - Category Variability by Day - A box and whisker chart showing the volatility of each category, reinforcing the Mexican category as the most volatile category.
@@ -350,8 +350,8 @@ ORDER BY
 - Edamame has one of the largest sales volume but one of the lowest revenues.
 
 #### Visualizations
-![Item sales and volume dashboard](charts\Item_sales_and_volume_dashboard.JPG)
-![Item weekday performance](charts\Item_weekday_performance_dashboard.JPG)
+![Item sales and volume dashboard](https://github.com/Jon-D-Smith/Restaurant-Analysis/blob/main/charts/Item_sales_and_volume_dashboard.JPG)
+![Item weekday performance](https://github.com/Jon-D-Smith/Restaurant-Analysis/blob/main/charts/Item_weekday_performance_dashboard.JPG)
 - Item Level Sales - A vertical bar chart showcasing sales on a per item basis. This chart reinforces that the Korean Beef Bowl is the highest performer for revenue, and Chicken Tacos are the lowest performer.
 - Volume Sold and Price - A scatterplot showing the relationship between volume and sales which showcases edamame as our highest volume item and relatively low price.
 - Revenue per DOW - A horizontal stacked bar chart showcasing each items revenue per day of the week reinforcing the top items as high performers across each day of the week.
