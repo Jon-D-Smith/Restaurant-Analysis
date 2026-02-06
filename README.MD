@@ -29,7 +29,8 @@ The analysis focuses on translating raw sales data into actionable business insi
 
 <details>
   <summary><strong>Full SQL Analysis</strong></summary>
-<code>
+
+```sql
 /*
 Objective: Identify weekday sales trends to support business decisions
 */
@@ -127,7 +128,7 @@ WITH order_price AS (
 FROM order_price
 LEFT JOIN sum_of_sales ON order_price.order_day = sum_of_sales.order_day
 ;
-</code>
+```
 </details>
 
 #### Key Insights
@@ -160,8 +161,8 @@ LEFT JOIN sum_of_sales ON order_price.order_day = sum_of_sales.order_day
 
 <details>
     <summary><strong>Full SQL Analysis</strong></summary>
-    <pre><code class="language-sql">
-        
+
+```sql        
 /*
 Objective: Rank menu categories by their contribution to overall sales, then find daily percentage contribution per category
 - This will help classify top-performing categories for potential promotions or inventory focus
@@ -245,7 +246,7 @@ ORDER BY
     oc.category,
     orders_with_category DESC;
 
-    </code></pre>
+```
 </details>
 
 #### Key Insights
@@ -276,8 +277,8 @@ ORDER BY
 
 <details>
     <summary><strong>Full SQL Analysis</strong></summary>
-    <pre><code class="language-sql">
-        
+
+```sql        
 /*
 Objective: Gain insights into the top performing, 
 and lowest performing items in terms of revenue and volume
@@ -340,7 +341,7 @@ GROUP BY
     md.price
 ORDER BY
     menu_item_total_revenue DESC;
-    </code></pre>
+```
 </details>
 
 #### Key Insights
