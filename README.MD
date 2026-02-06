@@ -29,7 +29,7 @@ The analysis focuses on translating raw sales data into actionable business insi
 
 <details>
   <summary><strong>Full SQL Analysis</strong></summary>
-```sql
+<code>
 /*
 Objective: Identify weekday sales trends to support business decisions
 */
@@ -127,7 +127,7 @@ WITH order_price AS (
 FROM order_price
 LEFT JOIN sum_of_sales ON order_price.order_day = sum_of_sales.order_day
 ;
-```
+</code>
 </details>
 
 #### Key Insights
